@@ -1,3 +1,66 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseURL = "https://NiKoTron.github.io/"
+# languageCode = "en-us"
+
+
+theme = "coder"
+
+DefaultContentLanguage = "en"
+copyright = "Nikolai Simonov 2018"
+# defaultContentLanguageInSubdir = true
+
+[languages]
+  [languages.en]
+    title = "Nikolai Simonov's page"
+    weight = 1
+  [languages.ru]
+    copyright = "Симонова Николая 2018"
+    title = "Страничка Симонова Николая"
+    weight = 2
+    [languages.ru.params]
+        author = "Симонов Николай"
+        info = "Разработчик мобильных приложений"
+        description = "Персональная страничка Симонова Николая"
+    # Menu links [RU]
+    [[languages.ru.menu.main]]
+        name = "Резюме"
+        weight = 1
+        url  = "/ru/cv"
+    [[languages.ru.menu.main]]
+        name = "Обо мне"
+        weight = 2
+        url = "/ru/about"
+
+
+[params] # theme parameters
+    author = "Nikolai Simonov" # author's name
+    info = "Mobile developer" # author's job title or info
+    description = "Nikolai Simonov's personal site" # site description
+    keywords = "developer,personal,employee,cv" # site keywords
+
+    # wether you want to hide copyright and credits in the footer
+    hideCredits = false
+    hideCopyright = false
+    
+# Social links
+[[params.social]]
+    name = "Github"
+    weight = 1
+    url = "https://github.com/NiKoTron/"
+[[params.social]]
+    name = "LinkedIn"
+    weight = 2
+    url = "https://www.linkedin.com/in/nikolay-simonov/"
+[[params.social]]
+    name = "Facebook"
+    weight = 3
+    url = "https://www.facebook.com/nikotron/"
+
+# Menu links
+[[menu.main]]
+    name = "CV"
+    weight = 1
+    url  = "/cv"
+[[menu.main]]
+    name = "About"
+    weight = 2
+    url = "/about"
