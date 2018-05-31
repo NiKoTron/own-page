@@ -1,12 +1,11 @@
 baseURL = "https://NiKoTron.github.io/"
 # languageCode = "en-us"
 
-
 theme = "coder"
 
 DefaultContentLanguage = "en"
 copyright = "Nikolai Simonov 2018"
-# defaultContentLanguageInSubdir = true
+defaultContentLanguageInSubdir = true
 
 [languages]
   [languages.en]
@@ -59,8 +58,8 @@ copyright = "Nikolai Simonov 2018"
 [[menu.main]]
     name = "CV"
     weight = 1
-    url  = "/cv"
+    url  = "/en/cv"
 [[menu.main]]
     name = "About"
     weight = 2
-    url = "/about"
+    url = "/en/about"
