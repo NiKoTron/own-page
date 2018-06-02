@@ -1,5 +1,10 @@
 baseURL = "https://NiKoTron.github.io/"
+googleAnalytics = UA-120206933-1
+
+
 # languageCode = "en-us"
+
+# uglyURLs = true
 
 theme = "coder"
 
@@ -30,13 +35,12 @@ defaultContentLanguageInSubdir = true
         url = "/ru/about"
 
 
-[params] # theme parameters
-    author = "Nikolai Simonov" # author's name
-    info = "Mobile developer" # author's job title or info
-    description = "Nikolai Simonov's personal site" # site description
-    keywords = "developer,personal,employee,cv" # site keywords
+[params]
+    author = "Nikolai Simonov"
+    info = "Mobile developer"
+    description = "Nikolai Simonov's personal site"
+    keywords = "developer,personal,employee,cv"
 
-    # wether you want to hide copyright and credits in the footer
     hideCredits = false
     hideCopyright = false
     
@@ -54,7 +58,7 @@ defaultContentLanguageInSubdir = true
     weight = 3
     url = "https://www.facebook.com/nikotron/"
 
-# Menu links
+# Menu
 [[menu.main]]
     name = "CV"
     weight = 1
