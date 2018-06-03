@@ -1,9 +1,7 @@
 baseURL = "https://NiKoTron.github.io/"
-googleAnalytics = UA-120206933-1
-
+googleAnalytics = "UA-120206933-1"
 
 # languageCode = "en-us"
-
 # uglyURLs = true
 
 theme = "coder"
@@ -17,8 +15,8 @@ defaultContentLanguageInSubdir = true
     title = "Nikolai Simonov's page"
     weight = 1
   [languages.ru]
-    copyright = "Симонова Николая 2018"
-    title = "Страничка Симонова Николая"
+    copyright = "Симонов Николай 2018"
+    title = "Симонов Николай"
     weight = 2
     [languages.ru.params]
         author = "Симонов Николай"
@@ -34,13 +32,12 @@ defaultContentLanguageInSubdir = true
         weight = 2
         url = "/ru/about"
 
-
 [params]
     author = "Nikolai Simonov"
     info = "Mobile developer"
     description = "Nikolai Simonov's personal site"
     keywords = "developer,personal,employee,cv"
-
+    
     hideCredits = false
     hideCopyright = false
     
